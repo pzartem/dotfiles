@@ -16,11 +16,14 @@ set showcmd " shows command in the last line
 set showmatch "highlight matchjng (){}{}"
 set cursorline "show current line
 set nostartofline " some command move to the first non-blank line
-set relativenumber " Relative line numbers
+" set relativenumber " Relative line numbers
 set number " Also show current absolute lineet number
+set signcolumn=yes " Always show sign color for ale or gitgutter
+
 set autoindent " copy indent from current line when starting a new line
 set smarttab " <Tab> in front of a line inserts blanks according to 'shiftwidth'
 set expandtab " spaces instead of tabs
+
 set softtabstop=2 " the number of spaces to use when expanding tabs
 set shiftwidth=2 " the number of spaces to use when indenting -- or de-indenting -- a line
 set tabstop=2 " the number of spaces that a tab equates to

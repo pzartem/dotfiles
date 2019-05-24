@@ -31,7 +31,7 @@ nnoremap <leader><TAB> <c-^>" Abbreviations
 nnoremap <leader>, :set invlist<cr>
 
 " map over 
-map ; :
+"map ; :
 
 " exit fast
 inoremap <C-j> <esc>
@@ -49,7 +49,6 @@ map H ^
 map L $
 
 " No arrow keys --- force yourself to use the home row
-nnoremap <up> <nop>
 nnoremap <down> <nop>
 inoremap <up> <nop>
 inoremap <down> <nop>

@@ -1,6 +1,14 @@
+" FZF
 nnoremap <C-p> :Files<cr>
 nnoremap <C-b> :Buffers<cr>
 nnoremap <C-f> :Ag<cr>
+
+nnoremap <silent> <leader>t :BTags<CR>
+nnoremap <silent> <leader>T :Tags<CR>
+
+nnoremap <silent> <leader>gc :Commits<CR>
+nnoremap <silent> <leader>ga :BCommits<CR>
+nnoremap <silent> <leader>ft :Filetypes<CR>
 
 let g:fzf_layout = { 'down': '~20%' }
 command! -bang -nargs=* Rg
