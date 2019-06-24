@@ -1,14 +1,16 @@
 filetype indent plugin on
 set nocompatible
-filetype off
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
 "  UI
 syntax on
-" let g:dracula_colorterm = 0
-" colorscheme dracula
-" color dracula
-set t_Co=256
-colorscheme OceanicNext
+let g:dracula_colorterm = 0
+colorscheme dracula
+color dracula
+
+" set background=light
+" set t_Co=256
+" colorscheme PaperColor
+
 
 set langmenu=en_US " set eng
 set hidden " be able to switch buffers without file save
@@ -24,9 +26,9 @@ set autoindent " copy indent from current line when starting a new line
 set smarttab " <Tab> in front of a line inserts blanks according to 'shiftwidth'
 set expandtab " spaces instead of tabs
 
-set softtabstop=2 " the number of spaces to use when expanding tabs
-set shiftwidth=2 " the number of spaces to use when indenting -- or de-indenting -- a line
-set tabstop=2 " the number of spaces that a tab equates to
+"set softtabstop=2 " the number of spaces to use when expanding tabs
+"set shiftwidth=2 " the number of spaces to use when indenting -- or de-indenting -- a line
+"set tabstop=2 " the number of spaces that a tab equates to
 
 " https://github.com/vim/vim/issues/1735#issuecomment-383353563
 set lazyredraw
@@ -54,10 +56,10 @@ set ignorecase
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
-" Show those damn hidden characters
+" Show those damn hidden character
 " Verbose: set listchars=nbsp:¬,eol:¶,extends:»,precedes:«,trail:•
 set nolist
-set listchars=nbsp:¬,extends:»,precedes:«,trail:•
+set listchars=nbsp:¬,extends:»,precedes:«,trail:•,space:·
 
 " Make diffing better: https://vimways.org/2018/the-power-of-diff/
 set diffopt+=algorithm:patience

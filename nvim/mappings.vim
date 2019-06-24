@@ -30,37 +30,33 @@ nnoremap <leader><TAB> <c-^>" Abbreviations
 " <leader>, shows/hides hidden characters
 nnoremap <leader>, :set invlist<cr>
 
-" map over 
-"map ; :
-
 " exit fast
+inoremap jk <esc>
+
 inoremap <C-j> <esc>
 vnoremap <C-j> <esc>
 
 inoremap <C-c> <esc>
 vnoremap <C-c> <esc>
 
-" Move by line
-nnoremap j gj
-nnoremap k gk
-
 " lines 
 map H ^
 map L $
 
 " No arrow keys --- force yourself to use the home row
-nnoremap <down> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+"nnoremap <down> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
 
 " Left and right can switch buffers
 nnoremap <left> :bp<CR>
 nnoremap <right> :bn<CR>
 
-" save file faster
+" Save file faster
 nmap <leader>w :w<CR>
+
 " I can type :help on my own, thanks.
 map <F1> <Esc>
 imap <F1> <Esc>
@@ -79,3 +75,4 @@ cnoremap %s/ %sm/
 
 iabbrev @@ pzartem@gmail.com
 iabbrev copy Copyright 2019 Artem Puzanov, all rights reserved.
+
