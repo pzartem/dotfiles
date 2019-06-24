@@ -1,3 +1,6 @@
 nvim/plugged
 nvim/python3_venv
 nvim/python3_venv
+coc/extensions
+coc
+nvim/tags
