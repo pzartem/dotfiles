@@ -29,7 +29,7 @@ Plug 'w0rp/ale'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'ludovicchabant/vim-gutentags'
-" Plug 'easymotion/vim-easymotion'
+Plug 'easymotion/vim-easymotion'
 
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
@@ -40,7 +40,6 @@ Plug 'jiangmiao/auto-pairs'
 " Plug 'terryma/vim-multiple-cursors'
 
 " Sinppets
-" Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 " Golang
@@ -62,4 +61,5 @@ Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
 
 " Rust
 Plug 'rust-lang/rust.vim'
+
 call plug#end()

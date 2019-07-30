@@ -38,9 +38,9 @@ set colorcolumn=100 " and give me a colored column
 set mouse=a " Enable mouse usage (all modes) in terminals
 
 " Folding
-set foldmethod=syntax
-set foldcolumn=1
-set foldlevelstart=99
+" set foldmethod=syntax
+" set foldcolumn=1
+" set foldlevelstart=99
 
 set exrc " enable project specific .nvimrc files
 set secure " disable write/shell commands in those files
