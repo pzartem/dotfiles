@@ -18,7 +18,9 @@ set showcmd " shows command in the last line
 set showmatch "highlight matchjng (){}{}"
 set cursorline "show current line
 set nostartofline " some command move to the first non-blank line
-" set relativenumber " Relative line numbers
+
+"set relativenumber " Relative line numbers
+
 set number " Also show current absolute lineet number
 set signcolumn=yes " Always show sign color for ale or gitgutter
 

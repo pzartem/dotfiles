@@ -55,6 +55,11 @@ Plug 'wokalski/autocomplete-flow', { 'for': 'javascript' }
 " TypeScript
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 
+" Clojure
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'venantius/vim-cljfmt', { 'for': 'clojure' }
+Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
+
 " Rust
 Plug 'rust-lang/rust.vim'
 call plug#end()
