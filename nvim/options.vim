@@ -3,13 +3,15 @@ set nocompatible
 
 "  UI
 syntax on
-" let g:dracula_colorterm = 0
-" colorscheme dracula
-" color dracula
 
+set termguicolors
 set t_Co=256
-set background=dark
-colorscheme PaperColor
+colorscheme dracula
+color dracula
+let g:dracula_colorterm = 0
+
+colorscheme dracula
+let g:gruvbox_contrast_dark="hard"
 
 
 set langmenu=en_US " set eng
@@ -25,11 +27,12 @@ set number " Also show current absolute lineet number
 set signcolumn=yes " Always show sign color for ale or gitgutter
 
 set autoindent " copy indent from current line when starting a new line
-set smarttab " <Tab> in front of a line inserts blanks according to 'shiftwidth'
-set expandtab " spaces instead of tabs
 
-set softtabstop=2 " the number of spaces to use when expanding tabs set shiftwidth=4 " the number of spaces to use when indenting -- or de-indenting -- a line
+"set softtabstop=2 " the number of spaces to use when expanding tabs set shiftwidth=4 " the number of spaces to use when indenting -- or de-indenting -- a line
+set expandtab " spaces instead of tabs
+set smarttab " <Tab> in front of a line inserts blanks according to 'shiftwidth'
 set tabstop=4 " the number of spaces that a tab equates to
+set shiftwidth=4
 
 " https://github.com/vim/vim/issues/1735#issuecomment-383353563
 set lazyredraw

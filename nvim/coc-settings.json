@@ -1,26 +1,39 @@
 {
+    "coc.preferences.formatOnSaveFiletypes": [
+        "*"
+    ],
     "languageserver": {
         "golang": {
             "command": "gopls",
             "rootPatterns": [
-                "go.mod",
-                ".vim/",
-                ".git/",
-                ".hg/"
+                "go.mod"
             ],
             "filetypes": [
                 "go"
             ]
         },
-        "clojure-lsp": {
-          "command": "bash",
-          "args": ["-c", "cd /Users/case/dev/lsp/ && lein run"],
-          "filetypes": ["clojure"],
-          "rootPatterns": ["project.clj"],
-          "additionalSchemes": ["jar", "zipfile"],
-          "trace.server": "verbose",
-          "initializationOptions": {
-          }
+        "ccls": {
+            "command": "ccls",
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                ".ccls",
+                "compile_commands.json",
+                ".git/",
+                ".hg/"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+                "client": {
+                    "snippetSupport": true
+                }
+            }
         }
     },
     "suggest.snippetIndicator": "🍦",
@@ -29,4 +42,3 @@
         "gosnippets/UltiSnips"
     ]
 }
-

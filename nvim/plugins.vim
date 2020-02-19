@@ -5,7 +5,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'ryanoasis/vim-devicons'
 
 Plug 'vim-scripts/LargeFile'
-
 " Tmux
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'benmills/vimux' " Run commands from vim in tmux
@@ -17,6 +16,8 @@ Plug 'scrooloose/nerdtree'
 " VimDark
 Plug 'dracula/vim'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'morhetz/gruvbox'
+
 
 " Git
 Plug 'tpope/vim-fugitive'
@@ -32,7 +33,10 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'easymotion/vim-easymotion'
 
 " Autocomplete
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Beautiful snippets
+Plug 'kristijanhusak/vim-carbon-now-sh'
 
 " Quoting / Parenthesizing
 Plug 'tpope/vim-surround'

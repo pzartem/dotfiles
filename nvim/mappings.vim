@@ -74,5 +74,5 @@ nnoremap / /\v
 cnoremap %s/ %sm/
 
 iabbrev @@ pzartem@gmail.com
-iabbrev copy Copyright 2019 Artem Puzanov, all rights reserved.
+iabbrev copy Copyright 2020 Artem Puzanov, all rights reserved.
 
