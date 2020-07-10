@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true
+    ~/.gitconfig: .gitconfig
+    ~/.gitignore: .gitignore
+    ~/.gitmodules: .gitmodules
+
+- shell:
+    - git submodule sync --recursive
+    - git update-submodules

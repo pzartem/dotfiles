@@ -1,0 +1,46 @@
+{
+    "coc.preferences.rootPatterns": [
+        ".git",
+        ".hg",
+        ".projections.json"
+    ],
+    "codeLens.enable": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "*"
+    ],
+    "explorer.icon.enableNerdfont": true,
+    "explorer.file.hiddenRules": {
+        "extensions": [
+            "o",
+            "a",
+            "obj",
+            "pyc"
+        ],
+        "filenames": [],
+        "patternMatches": []
+    },
+    "languageserver": {},
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "gosnippets/UltiSnips"
+    ],
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.numSuggestions": 3,
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/objects/**",
+        ".vscode",
+        "**/nvim/**"
+    ],
+    "cSpell.userWords": [
+        "Chpst",
+        "algo",
+        "conv",
+        "expedia",
+        "pcode",
+        "segmentio",
+        "stretchr"
+    ]
+}

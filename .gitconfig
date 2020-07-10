@@ -1,0 +1,16 @@
+[user]
+	name = Artem Puzanov
+	email = pzartem@gmail.com
+[core]
+	excludesfile = /home/pzartem/.gitignore
+[credential]
+	helper = cache
+[color]
+	ui = true
+[user]
+	email = pzartem@gmail.com
+	name = Artem Puzanov
+
+[alias]
+    update-submodules = submodule update --init --recursive
+    upgrade-submodules = submodule update --init --remote
