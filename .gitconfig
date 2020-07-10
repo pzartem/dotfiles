@@ -1,6 +1,3 @@
-[user]
-	name = Artem Puzanov
-	email = pzartem@gmail.com
 [core]
 	excludesfile = /home/pzartem/.gitignore
 [credential]
