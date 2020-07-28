@@ -4,6 +4,9 @@
         ".hg",
         ".projections.json"
     ],
+    "diagnostic.virtualText": true,
+    "diagnostic.enableMessage": "never",
+    "diagnostic.refreshOnInsertMode": true,
     "codeLens.enable": true,
     "coc.preferences.formatOnSaveFiletypes": [
         "*"
@@ -23,24 +26,5 @@
     "snippets.ultisnips.directories": [
         "UltiSnips",
         "gosnippets/UltiSnips"
-    ],
-    "cSpell.diagnosticLevel": "Hint",
-    "cSpell.numSuggestions": 3,
-    "cSpell.ignorePaths": [
-        "**/package-lock.json",
-        "**/node_modules/**",
-        "**/vscode-extension/**",
-        "**/.git/objects/**",
-        ".vscode",
-        "**/nvim/**"
-    ],
-    "cSpell.userWords": [
-        "Chpst",
-        "algo",
-        "conv",
-        "expedia",
-        "pcode",
-        "segmentio",
-        "stretchr"
     ]
 }
