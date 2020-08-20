@@ -512,3 +512,9 @@ if has('nvim')
 	runtime! plugin/python_setup.vim
 endif
 
+function! InstallCocExt()
+    CocInstall coc-json coc-go coc-xml coc-yaml coc-tsserver coc-html coc-explorer 
+endfunction
+
+command! -nargs=* CocExtSync call InstallCocExt()
+
