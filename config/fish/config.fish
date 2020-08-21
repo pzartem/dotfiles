@@ -1,6 +1,6 @@
 set -U fish_prompt_pwd_dir_length 0
 set -U fish_greeting ""
-set -U -x VISUAL e
+set -U -x VISUAL nvim
 
 abbr --add g   git
 abbr --add gb  git branch
