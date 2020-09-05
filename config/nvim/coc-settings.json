@@ -22,9 +22,25 @@
         "filenames": [],
         "patternMatches": []
     },
-    "languageserver": {},
     "snippets.ultisnips.directories": [
         "UltiSnips",
         "gosnippets/UltiSnips"
-    ]
+    ],
+    "languageserver": {
+        "clangd": {
+            "command": "clangd-9",
+            "rootPatterns": [
+                "compile_flags.txt",
+                "compile_commands.json"
+            ],
+            "filetypes": [
+                "c",
+                "cc",
+                "cpp",
+                "c++",
+                "objc",
+                "objcpp"
+            ]
+        }
+    }
 }

@@ -13,6 +13,7 @@
     ~/.gitconfig: .gitconfig
     ~/.gitignore: .gitignore
     ~/.gitmodules: .gitmodules
+    ~/.tmux.conf: .tmux.conf
 
 - shell:
     - git submodule sync --recursive

@@ -35,6 +35,7 @@ Plug 'vimlab/split-term.vim'
 
 " Semantic language support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Olical/conjure', {'tag': 'v4.3.1'}
 
 " Git
 Plug 'tpope/vim-fugitive'

@@ -18,6 +18,8 @@ abbr --add ls exa -l
 abbr --add la exa -la
 abbr --add l  exa -l
 
+abbr --add e nvim
+
 abbr --add c code
 abbr --add w code ~/work/
 
