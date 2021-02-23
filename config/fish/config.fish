@@ -10,6 +10,8 @@ abbr --add gp  git push
 abbr --add gp! git push --force
 abbr --add gpo git push -u origin HEAD
 
+abbr --add grm 'git branch --merged | rg -v "(^\*|master|main|dev)" | xargs git branch -d'
+
 abbr --add sw  git switch
 abbr --add swm git switch master
 abbr --add swc git switch -c
@@ -40,3 +42,6 @@ abbr --add xpc ./x.py check
 abbr --add cat bat -p
 
 source ~/envs/.metaenvs
+
+set -gx PATH $PATH ~/go/bin
+set -gx PATH $PATH ~/.cargo/bin
